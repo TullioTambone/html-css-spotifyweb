@@ -55,24 +55,108 @@
 .end-content{
     position: absolute;
     bottom: 0;
+    left: 10px;
 }
 
 .end-content hr{
-    width: 80%;
+    width: 90%;
+    background-color: gray;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 
 
 .main{
-    background-color: slateblue;
+    background-color: #141922;
     width: 100%;
 }
 
 .footer{
     height: 100px;
-    background-color: green;
+    background-color: #282828;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
 
+.left-footer{
+    flex-basis: calc(100% / 3);
+    text-align: left;
+    color: grey;
+    border: 1px solid red;
+    aspect-ratio: 1;
+}
+
+
+.left-footer > div:nth-child(2){
+    font-size: 0.8em;
+}
+
+.left-footer img{
+    width: 5vw;
+    aspect-ratio: 1;
+}
+
+.left-footer div i{
+    font-size: 1.5vw;
+}
+
+.mid-footer{
+    border: 1px solid green;
+    flex-basis: 100%;
+    color: white;
+    gap: 1em;
+    font-size: 1vw;
+    aspect-ratio: 1;
+}
+
+.icons{
+    width: 30%;
+}
+
+.traccia{
+    width: 80%;
+}
+
+input[type=range] {
+    /* Colore del range */
+    background-color: #bbb;
+    
+    /* Dimensioni e stile del range */
+    width: 200px;
+    height: 1px;
+    border-radius: 5px;
+    border: none;
+    
+    /* Stile del thumb */
+    appearance: none;
+    background-color: white;
+    width: 40vw;
+    height: 1vh;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: -5px;
+    cursor: pointer;
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track {
+    /* Gradiente del range */
+    background: grey;
+    border-radius: 5px;
+  }
+  
+.right-footer{
+    border: 1px solid blueviolet;
+    flex-basis: calc(100% /3);
+    color: white;
+}
+
+.icons-r{
+    margin: 1em;
+    font-size: 1vw;
+}
+
+.right-footer hr{
+    width: 30%;
+}
