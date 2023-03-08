@@ -6,11 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./spotify/assets/css/utility.css">
     <link rel="stylesheet" href="./spotify/assets/css/style.css">
     <link rel="stylesheet" href="./spotify/assets/css/mediaq.css">
 </head>
 <body>
-    
+    <div id="web-app">
+        <div class="flex box">
+
+            <div class="aside flex-y relative">
+                    <!--immagine-->
+                    <a href="" id="logo">
+                        <img src="./spotify/assets/img/logo.svg" alt="logo">
+                    </a>
+                    <!--lista-->
+                    <ul class="margin-top-1em" id="as-first-list">
+                        <li class="flex center-y">
+                            <img src="./spotify/assets/img/home.svg" alt="home">
+                            <a href="" class="margin-left-05rem gray">Home</a>
+                        </li>
+                
+                        <li class="flex center-y">
+                            <img src="./spotify/assets/img/search.svg" alt="search">
+                            <a href="" class="margin-left-05rem gray">Cerca</a>
+                        </li>
+                
+                        <li class="flex center-y">
+                            <img src="./spotify/assets/img/libreria.svg" alt="library">
+                            <a href="" class="margin-left-05rem gray">La tua libreria</a>
+                        </li>
+                    </ul>
+                    
+                    <h4 class="margin-top-2em white">PLAYLIST</h4>
+                    <div class="flex center-y">
+                        <i class="fa-solid fa-square-plus"></i>
+                        <span class="margin-left-05rem">Crea Playlist</span>
+                    </div>
+                    
+                    <!--playlist-->
+                    <ul class="overflow">
+                        <li class="margin-top-05em"><a href="" class="gray">Nome Playlist</a></li>
+                        <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
+                        <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
+                        <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
+                        <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
+                        <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
+                    </ul>
+
+                    <div class="end-content">
+                        <div class="flex center-y">
+                            <img src="./spotify/assets/img/download.svg" alt="download">
+                            <span class="margin-left-05rem">Installa App</span>
+                        </div>
+                        <hr>
+                    
+                        <div class="flex center-y">
+                            <img src="./spotify/assets/img/profile.svg" alt="stranger" id="grigio">
+                            <span class="margin-left-05rem">John Doe</span>
+                        </div>
+                    </div>
+            </div>
+        
+            <div class="main">
+        
+            </div>
+        </div>
+        
+        <div class="footer">
+        
+        </div>
+        
+        
+        
+    </div>
 </body>
 </html>

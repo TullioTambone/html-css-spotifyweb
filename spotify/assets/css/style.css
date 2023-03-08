@@ -1,0 +1,78 @@
+#web-app{
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+/*ANCHOR -  aside*/
+
+.box{
+    height: 100%;
+}
+
+.aside{
+    width: 200px;
+    height: calc(100vh - 100px);
+    background-color: black;
+    color: gray;
+    font-size: 0.8em;
+    position: relative;
+}
+
+#logo{
+    margin-top: 1em;
+    width: 80%;
+}
+
+.aside * :not(hr, img){
+    padding: 0.2em;
+    font-weight: 600;
+}
+
+.aside * :not( hr, h4):hover{
+    color: white;
+}
+
+#as-first-list li:hover{
+    border-left: 3px solid greenyellow;
+}
+
+.aside ul li img,
+.aside div > div img{
+    width: 15%;
+}
+
+.aside i{
+    font-size: 3em;
+}
+
+.overflow{
+    max-height: calc(100vh/2 - 100px);
+    overflow: auto;
+}
+
+.end-content{
+    position: absolute;
+    bottom: 0;
+}
+
+.end-content hr{
+    width: 80%;
+}
+
+
+
+.main{
+    background-color: slateblue;
+    width: 100%;
+}
+
+.footer{
+    height: 100px;
+    background-color: green;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
