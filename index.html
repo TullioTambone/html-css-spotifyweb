@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="icon" type="image/x-icon" href="./spotify/assets/img/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./spotify/assets/css/utility.css">
@@ -15,7 +16,9 @@
     <div id="web-app">
         <div class="flex box">
 
-            <div class="aside flex-y relative">
+            <div class="aside flex-y space-between">
+                
+                <div>
                     <!--immagine-->
                     <a href="" id="logo">
                         <img src="./spotify/assets/img/logo.svg" alt="logo">
@@ -53,6 +56,7 @@
                         <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
                         <li class="margin-top-1em"><a href="" class="gray">Nome Playlist</a></li>
                     </ul>
+                </div>
 
                     <div class="end-content">
                         <div class="flex center-y">
@@ -64,25 +68,200 @@
                     
                         <div class="flex center-y">
                             <img src="./spotify/assets/img/profile.svg" alt="stranger" id="grigio">
-                            <span class="margin-left-05rem">John Doe</span>
+                            <span class="margin-left-05rem white">John Doe</span>
                         </div>
                     </div>
             </div>
+
+            <div class="aside-mobile flex-y space-between">
+                <div>
+                    <img src="./spotify/assets/img/logo-small.svg" alt="">
+                    <ul class="margin-top-1em" id="as-first-list">
+                        <li class="flex center-y">
+                            <img src="./spotify/assets/img/home.svg" alt="home">
+                        </li>
+                
+                        <li class="flex center-y">
+                            <img src="./spotify/assets/img/search.svg" alt="search">
+                        </li>
+                
+                        <li class="flex center-y">
+                            <img src="./spotify/assets/img/libreria.svg" alt="library">
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <img src="./spotify/assets/img/download.svg" alt="download">
+
+                    <img src="./spotify/assets/img/profile.svg" alt="stranger" id="grigio">
+                </div>
+            </div>
         
             <div class="main">
-        
+                <div class="fix-head-main">
+                    <a href="">
+                        <span id="btn" class="scale">EFFETTUA L'UPGRADE</span>
+                    </a>
+                </div>
+
+                <div class="main-list">
+                    <ul class="flex center-y center-x">
+                        <li>
+                            <a href="">IN EVIDENZA</a>
+                            
+                        </li>
+                        <li><a href="">PODCAST</a></li>
+                        <li><a href="">CLASSIFICHE</a></li>
+                        <li><a href="">GENERI E MOOD</a></li>
+                        <li><a href="">NUOVE USCITE</a></li>
+                        <li><a href="">SCOPRI</a></li>
+                    </ul>
+                </div>
+
+                <div class="main-content">
+                    <h2 class="white">Recently played</h2>
+
+                    <!--6 card-->
+                    <div class="cont-card flex margin-top-1em">
+                        <div class="card">
+                            <div>
+                                <div class="play">
+                                    <img src="./spotify/assets/img/metal_lifting.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Heavy Metal</h4>
+                                <div class="gray">subtitle</div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div class="play">
+                                    <img src="./spotify/assets/img/stranger.jpeg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Stranger Thins, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
+                                <div class="gray">Kyle Dixon & Michael stein</div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div class="play"><img src="./spotify/assets/img/aquietplace.jpeg" alt=""></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">A quiet place</h4>
+                                <div class="gray">subtitle</div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div class="play"><img src="./spotify/assets/img/split.jpeg" alt=""></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Split</h4>
+                                <div class="gray">subtitle</div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div class="play"><img src="./spotify/assets/img/cure.jpeg" alt=""></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">A cure for wellness</h4>
+                                <div class="gray">subtitle</div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div class="play"><img src="./spotify/assets/img/sinister.jpeg" alt=""></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Sinister</h4>
+                                <div class="gray">subtitle</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="white margin-top-1em">Creato per John Dow</h2>
+                    <h6 class="gray margin-top-05em">Più ascolti, più accurati saranno i suggerimenti.</h6>
+                    
+                    <!--2 card-->
+                    <div class="cont-card flex margin-top-1em space-between">
+                        <div class="card">
+                            <div>
+                                <div class="play"><img src="./spotify/assets/img/radar.jpeg" alt=""></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Release Radar</h4>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div class="play"><img src="./spotify/assets/img/mixdaily.jpeg" alt=""></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Daily Mix 1</h4>
+                            </div>
+                        </div>
+
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                    </div>
+
+                    <h2 class="white margin-top-1em">Artisti più popolari</h2>
+                    <h6 class="gray margin-top-05em">Più ascolti, più accurati saranno i suggerimenti.</h6>
+                    
+                    <!--2 card finali circolari-->
+                    <div class="cont-card flex margin-top-1em space-between">
+                        <div class="card">
+                            <div>
+                                <div><img src="./spotify/assets/img/youg.jpeg" class="circle" alt="lana del ray"></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Lana Del Rey</h4>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div>
+                                <div><img src="./spotify/assets/img/einaudi.jpeg" class="circle" alt="einaudi"></div>
+                            </div>
+                            <div>
+                                <h4 class="white margin-top-1em">Ludovico Einaudi</h4>
+                            </div>
+                        </div>
+
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                    </div>
+                </div>
             </div>
         </div>
         
-        <div class="footer flex space-between">
-            <div class="left-footer flex padding-05em">
-                <div class=" flex center-y">
-                    <img src="./spotify/assets/img/sinister.jpeg" alt="sinister">
-                </div>
+        <div class="footer flex space-between center-y">
+            <div class="left-footer flex center-y padding-05em">
+                <div class="flex">
 
-                <div class="flex-y center-x margin-left-05rem">
-                    <h5 class="white">Sinister</h6>
-                    <span>Brano Nome</span>
+                    <div>
+                        <img src="./spotify/assets/img/sinister.jpeg" alt="sinister">
+                    </div>
+    
+                    <div class="text-left flex-y center-x margin-left-05rem">
+                        <h5 class="white">Sinister</h6>
+                        <span>Brano Nome</span>
+                    </div>
                 </div>
 
                 <div class="flex center-y padding-1em">
@@ -98,28 +277,29 @@
             <div class="mid-footer flex-y center-x center-y">
 
                 <div class="icons flex space-between">
-                    <i class="fa-solid fa-shuffle"></i>
-                    <i class="fa-solid fa-backward-step"></i>
-                    <i class="fa-regular fa-circle-play"></i>
-                    <i class="fa-solid fa-forward-step"></i>
-                    <i class="fa-solid fa-rotate-right"></i>
+                    <ul class="icons flex space-between center-x center-y">
+                        <li><i class="fas fa-random"></i></li>
+                        <li><i class="fas fa-step-backward"></i></li>
+                        <li class="player-controller-play-ico scale"><i class="far fa-play-circle"></i></li>
+                        <li><i class="fas fa-step-forward"></i></li>
+                        <li><i class="fas fa-redo-alt"></i></li>
+                      </ul>
                 </div>
 
-                <div class="flex space-between traccia">
+                <div class="flex space-between center-y traccia">
                     <span>0:25</span>
-                    <div>
-                        <input type="range" id="song" name="song"
-                               min="0" max="1000">
-                      </div>
+                    <div id="barra">
+                        <div id="sub-barra"></div>
+                    </div>
                     <span>4:35</span>
                 </div>
             </div>
 
             <div class="right-footer flex center-x center-y">
                 <div class="icons-r">
-                    <i class="fa-solid fa-list-ul"></i>
-                    <i class="fa-solid fa-desktop margin-left-05rem"></i>
-                    <i class="fa-solid fa-volume-high margin-left-05rem"></i>
+                    <i class="fa-solid fa-list-ul gray"></i>
+                    <i class="fa-solid fa-desktop margin-left-05rem gray"></i>
+                    <i class="fa-solid fa-volume-high margin-left-05rem gray"></i>
                 </div>
 
                 <hr>

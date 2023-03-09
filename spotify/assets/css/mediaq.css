@@ -1,0 +1,169 @@
+
+@media screen and (max-width:768px) {
+    
+    .cont-card{
+        gap: 2px;
+    }
+
+    .card{
+        font-size: 10px;
+        flex-basis: calc(90% / 4);
+    }
+
+    .main-list{
+        font-size: 8px;
+    }
+
+    .main-list ul{
+       width: 80%;
+    }
+
+    .icons{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .aside{
+        width: 150px;
+    }
+
+    .main{
+        width: calc(100% - 150px);
+    }
+    .text-left{
+        display: none;
+    }
+
+    .card{
+        font-size: 7px;
+    }
+    .left-footer > div{
+        margin-right: -20px;
+    }
+
+    .left-footer img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .traccia{
+        font-size: 10px;
+    }
+
+    .traccia > div{
+        margin: 0 5px;
+    }
+
+    .right-footer{
+        width: 22%;
+    }
+
+    .right-footer hr{
+        display: none;
+    }
+
+    .fa-volume-high{
+        display: none;
+    }
+
+    #btn{
+        font-size: 8px;
+    }
+
+    .main-list{
+        
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .main-list ul{
+        font-size: 6px;
+        width: 100%;
+    }
+
+    .main-list ul li{
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .aside{
+        width: 100px;
+    }
+
+    .main{
+        width: calc(100% - 100px);
+    }
+    .card{
+        flex-basis: calc(90% / 2);
+        font-size: 6px;
+    }
+
+    .main-list ul{
+        width: 100%;
+    }
+    
+    .main-list ul li{
+        flex-basis: calc(100% / 4);
+    }
+
+    .icons{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .aside{
+        display:none;
+    }
+
+    .aside-mobile{
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .main{
+        width: calc(100% - 50px);
+    }
+
+    #grigio{
+        margin: 0 auto;
+        width: 25px;
+        border-radius: 50%;
+        padding: 0;
+    }
+
+    .left-footer img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .left-footer > div{
+        flex-direction: column;
+        margin-right: -30px;
+    }
+
+    .icons{
+        font-size: 9px;
+    }
+    .right-footer{
+        width: 25%;
+    }
+    .main-list{
+        margin-top: 65px;
+    }
+
+    .main-list ul{
+        font-size: 6px;
+        width: 100%;
+    }
+
+    .main-list ul li{
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+}
